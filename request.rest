@@ -1,0 +1,11 @@
+POST http://localhost:5000/api/post
+Content-Type: application/json
+
+{
+     "title": "First Post",
+     "content": "This is my first post",
+     "userId": 2
+}
+
+###
+GET http://localhost:5000/api/post/1

@@ -1,0 +1,27 @@
+{
+     "name": "prisma_tutorial",
+     "version": "1.0.0",
+     "description": "Prisma tutorial",
+     "main": "index.js",
+     "scripts": {
+          "start": "nodemon index.js"
+     },
+     "repository": {
+          "type": "git",
+          "url": "git+https://github.com/g-rajesh/prisma.git"
+     },
+     "keywords": [],
+     "author": "",
+     "license": "ISC",
+     "bugs": {
+          "url": "https://github.com/g-rajesh/prisma/issues"
+     },
+     "homepage": "https://github.com/g-rajesh/prisma#readme",
+     "devDependencies": {
+          "prisma": "^2.25.0"
+     },
+     "dependencies": {
+          "@prisma/client": "^2.25.0",
+          "express": "^4.17.1"
+     }
+}
